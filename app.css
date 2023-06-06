@@ -1,0 +1,557 @@
+/** ALL CUSTOM CSS IS FOUND AT THE BOTTOM OF THEMES */
+
+
+
+/* ******************************************************************************************************************
+**** BEGIN PLEX THEME ***********************************************************************************************
+********************************************************************************************************************* */
+
+/*
+Originally created by Fidelio 2020
+StashApp Plex Theme - v1.0.5
+*/
+
+body {
+    background-image: url("https://user-images.githubusercontent.com/63812189/79506691-4af78900-7feb-11ea-883e-87b8e05ceb1c.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3f4245;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#root {
+    background: rgba(0, 0, 0, 0) url("https://user-images.githubusercontent.com/63812189/79506696-4c28b600-7feb-11ea-8176-12a46454d87a.png") repeat scroll 0% 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+* {
+    scrollbar-color: hsla(0, 0%, 100%, .2) transparent;
+}
+
+.bg-dark {
+    background-color: #1f2326!important;
+}
+
+.job-table.card,
+.card {
+    background-color: #30404d;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(16, 22, 26, .4), 0 0 0 rgba(16, 22, 26, 0), 0 0 0 rgba(16, 22, 26, 0);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.bg-secondary {
+    background-color: #313437 !important;
+}
+
+.text-white {
+    color: #eee !important;
+}
+
+.border-secondary {
+    border-color: #2f3335 !important;
+}
+
+.btn-secondary.filter-item.col-1.d-none.d-sm-inline.form-control {
+    background-color: rgba(0, 0, 0, .15);
+}
+
+.btn-secondary {
+    color: #eee;
+    background-color: rgba(0, 0, 0, .15);
+}
+
+a {
+    color: hsla(0, 0%, 100%, .45);
+}
+
+.btn.active {
+    background-color: #2f3335;
+    color: #f5f8fa;
+}
+
+minimal.w-100.active.btn.btn-primary {
+    background-color: #2f3335;
+    color: #f5f8fa;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1f2326;
+    border-color: #374242;
+}
+
+.nav-tabs .nav-link.active {
+    color: #eee;
+}
+
+.nav-tabs .nav-link.active:hover {
+    border-bottom-color: #eee;
+    outline: 0;
+}
+
+.nav-tabs .nav-link {
+    outline: 0;
+}
+
+.input-control,
+.input-control:focus {
+    background-color: rgba(16, 22, 26, .3);
+}
+
+#performer-page .image-container .performer {
+    background-color: rgba(0, 0, 0, .45);
+    box-shadow: 0 0 2px rgba(0, 0, 0, .35);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    border-color: #eee;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #1f2326;
+}
+
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #2f3335;
+    border-color: #eee;
+}
+
+input[type="range"]::-moz-range-track {
+    background: hsla(0, 0%, 100%, .25);
+}
+
+input[type="range"]::-moz-range-thumb {
+    background: #bcbcbc;
+}
+
+div.react-select__control {
+    background-color: hsla(0, 0%, 39.2%, .4);
+    color: #182026;
+    border-color: #394b59;
+    cursor: pointer;
+}
+
+.scene-wall-item-text-container {
+    background: radial-gradient(farthest-corner at 50% 50%, rgba(50, 50, 50, .5) 50%, #323232 100%);
+    color: #eee;
+}
+
+.filter-container,
+.operation-container {
+    background-color: rgba(0, 0, 0, .15);
+    box-shadow: none;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.btn-link {
+    font-weight: 500;
+    color: #eee;
+    text-decoration: none;
+}
+
+button.minimal.brand-link.d-none.d-md-inline-block.btn.btn-primary {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover {
+    color: hsla(0, 0%, 100%, .7);
+}
+
+option {
+    background-color: #1f2326;
+}
+.folder-list .btn-link {
+    color: #2c2e30;
+}
+
+#performer-scraper-popover {
+    z-index: 10;
+}
+
+#tasks-panel .tasks-panel-queue {
+    background: rgba(0, 0, 0, 0);
+}
+
+div.react-select__menu-portal {
+    z-index: 1051;
+}
+
+
+
+/* ******************************************************************************************************************
+**** END PLEX THEME *************************************************************************************************
+********************************************************************************************************************* */
+
+
+/** CUSTOM STYLES FOR THINGS PLEX MISSED */
+.selected-result,
+.search-item {
+  background: rgba(0,0,0,0.3);
+}
+.selected-result:hover,
+.selected-result:active {
+  background: rgba(0,0,0,0.4);
+}
+
+
+/* ******************************************************************************************************************
+**** CUSTOM STYLES **************************************************************************************************
+********************************************************************************************************************* */
+
+/* 
+ * BEGIN replace scene ratings banner with star rating in bottom left corner
+ */
+.scene-card.card .rating-1 {width:22px}
+.scene-card.card .rating-2 {width:43px}
+.scene-card.card .rating-3 {width:65px}
+.scene-card.card .rating-4 {width:86px}
+.scene-card.card .rating-5 {background:none; width:108px}
+.rating-1, .rating-2, .rating-3, .rating-4, .scene-card.card .rating-5 {
+    background:none;
+    background-image:var(--stars);
+    height:20px;
+    background-size: 108px 20px;
+}
+.scene-card.card .rating-banner {
+    padding:0;
+    left:5px;
+    top:89%;
+    background-position: left;
+    font-size: .01rem;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.scene-card.zoom-0.grid-card.card .rating-banner {top: 87%}
+.scene-card.zoom-2.grid-card.card .rating-banner {top: 90%}
+.scene-card.zoom-3.grid-card.card .rating-banner {top: 92%}
+
+.scene-card.zoom-3.grid-card.card .rating-1, .scene-card.zoom-3.grid-card.card .rating-2, .scene-card.zoom-3.grid-card.card .rating-3, .scene-card.zoom-3.grid-card.card .rating-4, .scene-card.zoom-3.grid-card.card .rating-5 {
+    background:none;
+    background-image:var(--stars);
+    height:28px;
+    background-size: 151px 28px;
+}
+.scene-card.zoom-3.grid-card.card .rating-1 {width:30px}
+.scene-card.zoom-3.grid-card.card .rating-2 {width:60px}
+.scene-card.zoom-3.grid-card.card .rating-3 {width:91px}
+.scene-card.zoom-3.grid-card.card .rating-4 {width:121px}
+.scene-card.zoom-3.grid-card.card .rating-5 {width:151px}
+:root {
+    --HeaderFont: Helvetica, "Helvetica Neue", "The Sans", "Segoe UI";
+    --std-txt-shadow: 2px 2px 1px #000;
+    --light-txt-shadow: 1px 2px 1px #222;
+    --white: #ffffff;
+    --stars: url("https://i.imgur.com/YM1nCqo.png");
+}
+/* 
+ * END replace scene ratings banner with star rating in bottom left corner
+ */
+
+
+/* increase opacity/size of studio logo  overlay on scenes */
+.scene-studio-overlay {
+    max-width: 50%;
+    opacity: 0.9;
+}
+
+/* make links in the scanner folder selector white */
+.folder-list-item .btn-link {
+    color: #fff;
+}
+
+/* fix the performer tag dropdown z-index */
+.react-select__menu-portal {
+    z-index: 2;
+}
+
+/* hide donate button */
+.minimal.donate.btn {
+    display: none;
+}
+
+/* Navbar Adjustments */
+ .top-nav.navbar {
+  padding: 0.5rem 1rem;
+ }
+
+ /* navbar link color */
+ .navbar-nav a,
+ .navbar-brand button,
+ .nav-utility button,
+ button.nav-utility {
+  color: rgba(255, 255, 255, 0.75);
+ }
+ .navbar-nav a:hover,
+ .navbar-brand button:hover,
+ .nav-utility button:hover,
+ button.nav-utility:hover {
+  color: rgba(255, 255, 255, 1);
+ }
+
+ /** ensure toolbar (search, etc. has room to breathe) */
+ .main div[role="toolbar"] {
+  margin: 1rem 0 0.5rem 0 !important;
+ }
+
+ /** ensure tags in search toolbar have room to breathe */
+ .wrap-tags {
+  margin-bottom: 1rem !important;
+ }
+
+/* style custom poster select button */
+#poster-select {
+    width: 96px;
+    color: #fff;;
+    border: none;
+    border-radius: 4px;
+    height: calc(1.5em + 2px + 0.75rem);
+    background: rgba(10, 25, 30, 0.62);
+    line-height: 2.6;
+    padding: 0 8px;
+    transform: translateX(-16px);
+}
+
+.img.performer-card-image {
+    transition: opacity 0.5s ease;
+}
+
+/* style popover modal background to match rest of Plex theme */
+.hover-popover-content {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* 
+ * BEGIN styles for the background images
+ */
+:root {
+  --background-image: url('');
+}
+
+/* insert before element for background posters */
+#root:before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: var(--background-image);
+  background-size: cover;
+  background-position: center 10%;
+  opacity: 0.3;
+  content: '';
+  z-index: -1;
+}
+/* 
+ * END styles for the background images
+ */
+
+
+/**
+ * BEGIN performer page style enhancements (desktop only)
+ */ 
+@media screen and (min-width: 968px) {
+  /* move edit/delete buttons to top right */
+  .performer-tabs .details-edit {
+    margin-bottom: 0 !important;
+    position: fixed;
+    top: 68px;
+    right: 20px;
+  }
+
+  /* adjust wonky alignment on performer nav tabs */
+  .performer-tabs .nav-tabs {
+    margin-left: 22px;
+  }
+
+  /* fix left alignment for page heading (performer name, rating, etc) with content in body */
+  .performer-head {
+    padding-left: 0;
+  }
+
+  /* remove pagination background and adjust margins */
+  .pagination.btn-group {
+    margin-top: 1.5rem !important;
+    background: none;
+  }
+  .paginationIndex {
+    background: none;
+  }
+
+  /** rearrange the grid on the images results (this may be able to get abstracted to other section results) */
+  #performer-details-tabpane-images .row.justify-content-center,
+  #performer-details-tabpane-scenes .row.justify-content-center {
+    display: grid;
+    justify-content: space-between !important;
+    grid-row-gap: 1rem;
+  }
+  /* all of these pixel width should align with the .zoom-* class max-widths */
+  #performer-details-tabpane-images .row.justify-content-center:has(.zoom-0),
+  #performer-details-tabpane-scenes .row.justify-content-center:has(.zoom-0) {
+    grid-template-columns: repeat(auto-fill, 250px);
+  }
+  #performer-details-tabpane-images .row.justify-content-center:has(.zoom-1),
+  #performer-details-tabpane-scenes .row.justify-content-center:has(.zoom-1) {
+    grid-template-columns: repeat(auto-fill, 320px);
+  }
+  #performer-details-tabpane-images .row.justify-content-center:has(.zoom-2),
+  #performer-details-tabpane-scenes .row.justify-content-center:has(.zoom-2) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #performer-details-tabpane-images .row.justify-content-center:has(.zoom-3),
+  #performer-details-tabpane-scenes .row.justify-content-center:has(.zoom-3) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/**
+ * END performer page style enhancements (desktop only)
+ */
+
+
+/**
+ * BEGIN card style adjustments
+ */
+  /* reduce background and border opacities. */
+  .image-card,
+  .scene-card,
+  .gallery-card,
+  .movie-card,
+  .performer-card,
+  .studio-card {
+    background: rgba(0, 0, 0, 0.15);
+    /* box-shadow: rgb(16 22 26 / 20%) 0px 0px 0px 1px, rgb(16 22 26 / 20%) 0px 0px 0px, rgb(16 22 26 / 20%) 0px 0px 0px; */
+    box-shadow: none;
+  }
+
+  /* remove borders between filename and icon sections */
+  .image-card hr,
+  .scene-card hr,
+  .gallery-card hr,
+  .movie-card hr,
+  .performer-card hr,
+  .studio-card hr {
+    display: none;
+  }
+
+  /* left align the icon section in card footer */
+  .card-popovers {
+    justify-content: flex-start !important;
+    padding-bottom: 4px;
+  }
+  .card-popovers > * {
+    transform: scale(0.9) translateY(-6px);
+  }
+
+  /* for STUDIO cards: adjust padding */
+  .studio-card .card-popovers {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 4px;
+  }
+
+  /* for SCENE + MOVIE cards: remove background from parent and apply to children to resolve funky variable height behavior */
+  .scene-card,
+  .movie-card {
+    background: none;
+  }
+  .scene-card .card-section,
+  .movie-card .card-section {
+    margin-top: -4px;
+    padding-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  .scene-card .card-popovers,
+  .movie-card .card-popovers {
+    background: rgba(0, 0, 0, 0.15);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  /* for GALLERY cards: remove 1-off funky margin & adjust top padding */
+  .gallery-card__details {
+    margin-bottom: 0 !important;
+  }
+  .gallery-card .card-section {
+    padding-top: 1rem !important;
+  }
+  .gallery-card.card {
+    padding-bottom: 0;
+  }
+
+  /* for PERFORMER cards: move age content to top right, remove gender icon, adjust spacing */
+  .performer-card {
+    height: 100%;
+    padding-bottom: 4px !important;
+  }
+  .performer-card .card-section {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+  }
+  .performer-card .gender-icon {
+    display: none;
+  }
+  .performer-card .card-popovers {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .performer-card__age:not(.scene-tabs .performer-card__age) {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.75);
+  }
+  /* for performer cards in sidebar (e.g. scene page, we need special adjustments */
+  .scene-tabs .performer-card .card-popovers {
+    flex-wrap: wrap;
+  }
+  .scene-tabs .scene-performers {
+    justify-content: flex-start !important;
+  }
+  /* for performer cards in sidebar, grow them to fit max width */
+  .scene-performers .performer-card {
+    flex-grow: 1;
+  }
+  .scene-performers .performer-card-image { 
+    height: 100%;
+  }
+
+
+/**
+ * END card style adjustments
+ */
